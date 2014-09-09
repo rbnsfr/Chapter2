@@ -1,0 +1,4 @@
+C:\Users\eahscs\Documents\GitHub\Chapter2\Chapter2\Yards\bin\Debug\Yards.exe
+C:\Users\eahscs\Documents\GitHub\Chapter2\Chapter2\Yards\bin\Debug\Yards.pdb
+C:\Users\eahscs\Documents\GitHub\Chapter2\Chapter2\Yards\obj\x86\Debug\Yards.exe
+C:\Users\eahscs\Documents\GitHub\Chapter2\Chapter2\Yards\obj\x86\Debug\Yards.pdb
