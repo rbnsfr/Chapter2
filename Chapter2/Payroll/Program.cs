@@ -22,11 +22,11 @@ namespace Payroll
             Console.WriteLine("Name: {0}",name);
             Console.WriteLine("SSN: {0}", social);
             Console.WriteLine("You've earned ${0} working at ${1} per hour.", Convert.ToDouble(hourly) * Convert.ToInt32(worked), hourly);
-            Console.WriteLine("Gross pay:                    ${0}.", Convert.ToDouble(hourly) * Convert.ToInt32(worked));
-            Console.WriteLine("Federal withholding:           ${0}", ((Convert.ToDouble(hourly) * Convert.ToInt32(worked)*0.15)));
-            Console.WriteLine("State withholding:           ${0}", Convert.ToDouble(grosspay) * 0.05);
-            Console.WriteLine("-------------------------------------");
-            Console.WriteLine("Net pay :                    ${0}", (Convert.ToDouble(hourly) * Convert.ToInt32(worked)) - (Convert.ToInt32((Convert.ToDouble(hourly) * Convert.ToInt32(worked) * 0.15)) + (Convert.ToDouble(hourly) * Convert.ToInt32(worked) * 0.15)));
+            Console.WriteLine("Gross pay:                    ${0}", Convert.ToDouble(hourly) * Convert.ToInt32(worked));
+            Console.WriteLine("Federal withholding:          ${0}", Convert.ToDouble(hourly) * Convert.ToInt32(worked) * 0.15);
+            Console.WriteLine("State withholding:            ${0}", Convert.ToDouble(grosspay) * 0.05);
+            Console.WriteLine("\n");
+            Console.WriteLine("Net pay :                     ${0}", (Convert.ToDouble(hourly) * Convert.ToInt32(worked)) - (Convert.ToInt32((Convert.ToDouble(hourly) * Convert.ToInt32(worked) * 0.15)) + (Convert.ToDouble(hourly) * Convert.ToInt32(worked) * 0.15)));
         }
     }
 }
